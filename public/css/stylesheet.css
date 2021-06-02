@@ -1,0 +1,216 @@
+li {
+    list-style: none;
+}
+
+/*--------header-------------*/
+header {
+  height: 70px;
+  background-color: blue;
+}
+
+header a {
+  color: white;
+  font-size: 24px;
+  height: 70px;
+  line-height: 70px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+
+.home {
+  float: left;
+  background-color: blue;
+}
+
+.menu {
+  float: right;
+  background-color: blue;
+
+}
+
+.menuGoals, .menuTodo, .menuAnalysis {
+  margin-right: 50px;
+  background-color: blue;
+}
+
+.home:hover, .menuGoals:hover, .menuTodo:hover, .menuAnalysis:hover {
+    background-color: red;
+}
+
+/*------index----------*/
+
+.title {
+  height: 150px;
+  width: 100%;
+  background-color: #dcdcdc;
+  margin-top: -33px;
+}
+
+.title h1 {
+  color: blue;
+  font-size: 50px;
+  text-align: center;
+  line-height: 150px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+.todaygoal p {
+  margin-top: 15px;
+}
+
+.todaytodo p {
+  margin-top: 15px;
+}
+
+.todaygoal {
+    margin-left: 60px;
+}
+
+.todo {
+    margin-left: 60px;
+}
+
+.target-head {
+    padding-left: 40px;
+    width: 1000px;
+}
+
+.target-head p {
+    width: 25%;
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #dcdcdc;
+    margin-right: 15px;
+}
+
+today-target {
+    width: 1000px;
+}
+
+.today-target-data  p {
+    width: 20%;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: -20px;
+}
+
+.todo-head {
+    padding-left: 40px;
+    width: 1000px;
+}
+
+.todo-head p {
+    width: 18%;
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #dcdcdc;
+    margin-right: 15px;
+}
+
+today-todo {
+    width: 1000px;
+}
+
+.today-todo-data  p {
+    width: 14%;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: -20px;
+}
+/*--------goalsSelect---------*/
+
+.dateSelect {
+    width: 30px;
+}
+
+
+
+/*--------todoSelect----------*/
+
+
+
+/*----------goals.ejs----------*/
+
+.month {
+    margin-left: 30px;
+    margin-top:30px;
+}
+
+
+.goalsTable-title span {
+    font-size: 30px;
+}
+
+.back {
+    display:inline-block;
+    text-decoration: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-left: 30px;
+    color: white;
+    background-color: gray;
+    padding: 5px;
+}
+
+.goalsTable {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.goalsTable-content th,td {
+    width: 70px;
+}
+
+
+.btn {
+    display:inline-block;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.new {
+    margin-top: 15px;
+    background-color: green;
+}
+
+
+/*---------todo.ejs------------*/
+
+.todoTable {
+    margin-left: 30px;
+    margin-top:20px;
+}
+
+.todoTable-content th,td {
+    width: 70px;
+}
+
+.todoTable-title span {
+    font-size: 30px;
+}
+
+/*-----------newGoals----------*/
+
+.create {
+    display: block;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/*---------editTodo----------*/
+
+.head {
+    margin: 15px, 0, 15px, 30px;
+}
+
+.head h1 {
+    margin-left: 30px;
+}
